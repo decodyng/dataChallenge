@@ -381,6 +381,6 @@ if __name__ == "__main__":
 
     print "Classified as Fully_Paid: " + str(np.sum(predictions))
     print "Classified as not Fully_Paid (i.e. late or default): " + str(len(predictions) - np.sum(predictions))
-    print "Not Classified: Current Loans or status='nan: " + str(nonPredictInd)
+    print "Not Classified: Current Loans or status=nan: " + str(nonPredictInd)
     print "Evaluation Metric: " + str(round(evaluationMetric(testY, predictions), 3))
 
