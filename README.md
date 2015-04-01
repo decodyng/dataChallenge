@@ -2,13 +2,22 @@
 To run: python loanClassifier.py
 
 ###Dependencies: 
-__future__ 
-requests 
+__future__
+ 
+requests
+ 
 zipfile
+
 StringIO
-pandas 
+
+pandas
+ 
 numpy
-re 
-sklearn 
+
+re
+ 
+sklearn
+ 
 cPickle
+
  
