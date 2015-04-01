@@ -1,6 +1,7 @@
 Instructions: 
 Script written in Python, can be executed by calling 'python loanClassifier.py' at command line. Only precondition for running is that the script downloads CSVs into a local data directory in whatever home directory the file is being run, so the script should be called somewhere you don't mind a directory being automatically created and populated with the train/test CSVs. 
 
+Built with Python 2.7 
 Dependencies: 
 __future__ 
 requests 
